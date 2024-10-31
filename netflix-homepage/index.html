@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Netflix Webpage</title>
+</head>
+<body>
+  <header class="header-level">
+    <img src="netflix_logo.svg" alt="website logo" />
+    <div class="lang-plus-signin">
+      <select>
+        <option>English</option>
+        <option>German</option>
+        <option>French</option>
+        <option>Italian</option>
+      </select>
+      <button onclick="setAlert()" >Sign In</button>
+    </div>
+  </header>
+  <main>
+    <h1>Unlimited films, TV programmes and more</h1>
+    <p>Watch anywhere. Cancel anytime</p>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <div>
+      <input type="text" placeholder="Email Address" /> <button>Get started ></button>
+    </div>
+  </main>
+
+  <script>
+    function  setAlert () {
+      alert("You cannot sign-in, this is a demo website")
+    }
+  </script>
+</body>
+</html>
